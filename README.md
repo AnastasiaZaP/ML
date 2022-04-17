@@ -2,7 +2,8 @@
 Стек:
 
 ML: sklearn, pandas, numpy API: flask Данные: с kaggle - https://www.kaggle.com/datasets/chitwanmanchanda/fraudulent-transactions-data
-Задача: предсказать, является ли транзакция фродовой (мошеннической). Бинарная классификация
+
+Задача: предсказать вероятность - является ли транзакция фродовой (мошеннической). Бинарная классификация
 
 Используемые признаки:
 - type (text)
