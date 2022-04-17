@@ -17,3 +17,8 @@ ML: sklearn, pandas, numpy API: flask Данные: с kaggle - https://www.kagg
 Преобразования признаков: BaseEstimator, TransformerMixin
 
 Модель: RandomForestClassifier
+
+
+$ git clone https://github.com/AnastasiaZaP/definition_of_fraudulent_transactions.git
+$ cd definition_of_fraudulent_transactions
+$ docker build -t a_zap/definition_of_fraudulent_transactions
