@@ -1,5 +1,5 @@
 # python-flask-docker
-Итоговый проект курса "Машинное обучение в бизнесе"
+*# Итоговый проект курса "Машинное обучение в бизнесе"
 Стек:
 
 ML: sklearn, pandas, numpy API: flask Данные: с kaggle - https://www.kaggle.com/datasets/chitwanmanchanda/fraudulent-transactions-data
