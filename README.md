@@ -6,14 +6,16 @@ ML: sklearn, pandas, numpy API: flask Данные: с kaggle - https://www.kagg
 Задача: предсказать вероятность - является ли транзакция фродовой (мошеннической). Бинарная классификация
 
 Используемые признаки:
-- type (text)
-- step (number)
-- amount (number)
-- oldbalanceOrg (number)
-- newbalanceOrig (number)
-- oldbalanceDest (number)
-- newbalanceDest (number)
-- isFlaggedFraud (number)
+- step (number) - единица времени (1 шаг - 1 час)
+- type (text) - типы платежа (CASH-IN, CASH-OUT, DEBIT, PAYMENT and TRANSFER)
+- amount (number) - сумма транзакции
+- nameOrig (text) - клиент, начавший транзакцию
+- oldbalanceOrg (number) - начальный баланс перед транзакцией
+- newbalanceOrig (number) - новый баланс после транзакции
+- nameDest (text) - клиент, который является получателем транзакции
+- oldbalanceDest (number) - получатель начального баланса перед транзакцией
+- newbalanceDest (number) - новый получатель баланса после транзакции
+- isFlaggedFraud (number) - флаг массовых переводов (попыткой в передачи более 200 000 за одну транзакцию)
 
 Преобразования признаков: BaseEstimator, TransformerMixin
 
