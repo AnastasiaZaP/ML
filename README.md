@@ -29,6 +29,7 @@ cd C:\Настя\Geek University\Projects\definition_of_fraudulent_transactions\
 git clone https://github.com/AnastasiaZaP/definition_of_fraudulent_transactions.git
 
 cd definition_of_fraudulent_transactions
+
 docker build -t a_zap/definition_of_fraudulent_transactions .
 
 Запуск контейнера:
