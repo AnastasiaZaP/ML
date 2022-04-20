@@ -5,7 +5,7 @@ ML: sklearn, pandas, numpy API: flask Данные: с kaggle - https://www.kagg
 
 Задача: предсказать вероятность - является ли транзакция фродовой (мошеннической). Бинарная классификация
 
-Используемые признаки:
+<Используемые признаки>:
 - step (number) - единица времени (1 шаг - 1 час)
 - type (text) - типы платежа (CASH-IN, CASH-OUT, DEBIT, PAYMENT and TRANSFER)
 - amount (number) - сумма транзакции
