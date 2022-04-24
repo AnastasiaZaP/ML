@@ -33,5 +33,5 @@ docker build -t a_zap/definition_of_fraudulent_transactions .
 
 # Запуск контейнера:
 
-docker run -d -p 8180:8180 -p 8181:8181 -v C:/Настя/Geek University/Projects/definition_of_fraudulent_transactions/models a_zap/definition_of_fraudulent_transactions
+λ docker run -d -p 8180:8180 -p 8181:8181 -v Projects/definition_of_fraudulent_transactions/models a_zap/definition_of_fraudulent_transactions
 
