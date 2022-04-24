@@ -22,8 +22,6 @@ ML: sklearn, pandas, numpy API: flask Данные: с kaggle - https://www.kagg
 
 Модель: RandomForestClassifier
 
- ? cd C:\Настя\Geek University\Projects\definition_of_fraudulent_transactions\cool_api
-
 
 # Клонирование репозитория и создание образа:
 
